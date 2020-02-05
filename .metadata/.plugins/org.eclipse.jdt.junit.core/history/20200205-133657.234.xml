@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="TEST_GFT_SELENIUM" tests="3" started="3" failures="0" errors="2" ignored="0">
+  <testsuite name="com.runner.Runner" time="39.969">
+    <testsuite name="Feature: Login_Action" time="39.969">
+      <testcase name="Successful login with valid credentials" classname="Login_Action" time="39.923">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "User navigates to Login Page" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="User adds Category and SubCategory" classname="Login_Action" time="0.046">
+        <error>java.lang.NullPointerException&#13;
+	at com.step_defination.step_def.user_clicks_Category(step_def.java:63)&#13;
+	at ✽.User clicks Category(Feature_GFT/test_GFT.feature:15)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="User adds Category and SubCategory" classname="Login_Action" time="0.0">
+        <error>java.lang.NullPointerException&#13;
+	at com.step_defination.step_def.user_clicks_Category(step_def.java:63)&#13;
+	at ✽.User clicks Category(Feature_GFT/test_GFT.feature:15)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

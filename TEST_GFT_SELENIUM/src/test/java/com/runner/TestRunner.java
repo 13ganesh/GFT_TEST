@@ -1,0 +1,17 @@
+package com.runner;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(plugin = {"json:target/cucumber.json"}
+				,features = "Feature_GFT"
+				,glue = {"com.step_defination"}
+		)
+
+
+public class TestRunner {
+
+}

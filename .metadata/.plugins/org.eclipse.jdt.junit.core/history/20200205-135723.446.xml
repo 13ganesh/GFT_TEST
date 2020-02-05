@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="TEST_GFT_SELENIUM" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.runner.TestRunner" time="16.003">
+    <testsuite name="Feature: Login_Action" time="16.003">
+      <testcase name="Successful login with valid credentials" classname="Login_Action" time="16.003">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "User navigates to Login Page" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "Message displayed login successfully" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

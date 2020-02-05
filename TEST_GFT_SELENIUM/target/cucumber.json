@@ -1,0 +1,75 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Successful login with valid credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15406826300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "step_def.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User navigates to Login Page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19400,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User enters \"admin\" and \"password456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"password456\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_def.user_enters_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Message displayed login successfully",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login_Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "Feature_GFT/test_GFT.feature",
+    "tags": []
+  }
+]
